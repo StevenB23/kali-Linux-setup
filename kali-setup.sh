@@ -1,4 +1,4 @@
-# using tput commands to colorize the output.
+# using tput commands to colorize the output. 2 is for green
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
@@ -20,4 +20,5 @@ echo "$(green)restarting the shell with $(tput setaf 4). ~/.bashrc $(reset)"
 . ~/.bashrc
 echo "$(green)running conda init command $(reset)"
 conda init 
-echo "$(green)Jupyter and package installation completed $(reset)"
+echo "$(green)package installation completed $(reset)"
+echo "To Complete jupyter installation run $(red). ~/.bashrc; conda init; . ~/.bashrc$(reset)"
