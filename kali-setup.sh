@@ -12,6 +12,7 @@ mkdir ~/extra-tools
 
 echo "${green}installing Anaconda3-2019 ${reset}"
 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh -P ~/extra-tools/
+#Use -b for a default silent install of Anaconda
 bash ~/extra-tools/Anaconda3-2019.07-Linux-x86_64.sh -b
 
 #Append the export command to make conda and other commands available in my PATH var
