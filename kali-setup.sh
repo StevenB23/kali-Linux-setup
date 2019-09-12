@@ -21,4 +21,5 @@ echo "${green}restarting the shell with $(tput setaf 4). ~/.bashrc ${reset}"
 echo "${green}running conda init command ${reset}"
 conda init 
 echo "${green}package installation completed ${reset}"
+#The script instance of running conda init doesn't take for your shell instance
 echo "To Complete jupyter installation run $(red). ~/.bashrc; conda init; . ~/.bashrc${reset}"
