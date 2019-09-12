@@ -1,4 +1,5 @@
 nmap
 xrdp
 bloodhound
-php7.2-curl
+php7.3
+php7.3-curl
