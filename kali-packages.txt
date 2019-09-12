@@ -1,0 +1,4 @@
+nmap
+xrdp
+bloodhound
+php7.2-curl
