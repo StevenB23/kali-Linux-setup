@@ -5,7 +5,7 @@ reset=`tput sgr0`
 
 echo "${green}running apt-get update and installing kali packages ${reset}"
 apt-get -q update
-cat kali-packages.txt | xargs apt-get install
+cat kali-packages.txt | xargs apt-get --assume-yes install
 
 echo "${green}creating ~/extra-tools directory{reset}"
 mkdir ~/extra-tools
