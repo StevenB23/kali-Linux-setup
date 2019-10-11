@@ -24,3 +24,10 @@ conda init
 echo "${green}package installation completed ${reset}"
 #The script instance of running conda init doesn't take for your shell instance
 echo "To Complete jupyter installation run $(red). ~/.bashrc; conda init; . ~/.bashrc${reset}"
+
+
+#INTEGRATE BELOW COMMANDS (UNTESTED)
+# <create the pentest env in conda>
+# conda activate pentest
+# pip install sh
+# pip install python-nmap
