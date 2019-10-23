@@ -31,3 +31,9 @@ echo "To Complete jupyter installation run $(red). ~/.bashrc; conda init; . ~/.b
 # conda activate pentest
 # pip install sh
 # pip install python-nmap
+
+
+#source activate pentest
+# cd ~/Downloads
+# git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+#bash ~/Downloads/EyeWitness/setup/setup.sh
