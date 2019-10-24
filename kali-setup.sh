@@ -32,8 +32,14 @@ echo "To Complete jupyter installation run $(red). ~/.bashrc; conda init; . ~/.b
 # pip install sh
 # pip install python-nmap
 
-
+#EyeWitness
 #source activate pentest
 # cd ~/Downloads
 # git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 #bash ~/Downloads/EyeWitness/setup/setup.sh
+
+#Powershell
+#apt update && apt -y install curl gnupg apt-transport-https
+#curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - 
+#echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-stretch-prod stretch main" > /etc/apt/sources.list.d/powershell.list
+#apt -y install powershell
